@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var list = [2,3,4,5,11];
+        for (let i = 0; i < 5; i++) {
+            console.log(list[i]);
+        }
+        console.clear();
+        for (const v of list) {
+            console.log(v);
+        }
+        console.clear();
+        for (const i in list) {
+        
+                console.log(i);
+            }
+        console.clear();
+        var list2 = {a: "홍", b: "김", c: [1,2,3,4]}
+        console.log(Object.keys(list2))
+        for (const i of Object.keys(list2)) {
+            console.log(list2[i])
+        }
+        console.clear();
+        var array = [
+            {a:1, b:3, c:7},
+            {a:11, b:13, c:17},
+            {a:21, b:23, c:27},
+            {a:31, b:33, c:37},
+            {a:41, b:43, c:47},
+        ];
+        for (const i of array) {
+            console.log(i);
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
